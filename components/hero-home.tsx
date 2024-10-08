@@ -31,8 +31,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              A fully modular and automative PaaS  <br className="max-lg:hidden" />
-              for companies that want scale
+              Una PaaS completamente modulare e automatizzata <br className="max-lg:hidden" />
+              per aziende che vogliono scalare
             </h2>
             <div className="mx-auto max-w-3xl">
               <p
@@ -40,7 +40,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Orbit is a centralized CMS with connected tools for managing websites, e-commerce, and teams. It offers a "Plug & Play" feature that allows customized functionalities linked to the same authentication system. Additionally, it includes a full automation feature to manage tasks, communications, social media, and business data efficiently.
+                Orbit è un CMS centralizzato con strumenti integrati per la gestione di siti web, e-commerce e team. Offre una funzionalità 'Plug & Play' che consente di aggiungere funzionalità personalizzate collegate allo stesso sistema di autenticazione. Inoltre, include una funzione di automazione completa per gestire in modo efficiente attività, comunicazioni, social media e dati aziendali.
               </p>
 
             </div>
