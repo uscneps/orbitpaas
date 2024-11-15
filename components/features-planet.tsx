@@ -7,6 +7,7 @@ import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 import orbit1 from "@/public/images/orbitlog.png"
+import BusinessCategories from "@/components/business-categories";
 
 export default function FeaturesPlanet() {
   return (
@@ -14,7 +15,7 @@ export default function FeaturesPlanet() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
+          <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20 font-mono">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
             Orbit's use cases
             </h2>
@@ -39,7 +40,7 @@ export default function FeaturesPlanet() {
                     alt="Planet decoration"
                   />
                   <div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -50,28 +51,33 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                    className="fill-blue-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={16}
+                    height={16}
                 >
-                  <path d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z" />
+                  <path
+                      d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z"/>
                 </svg>
                 <span>Fully Customizable CMS</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-              fully customizable CMS at the center, with connected tools around it. Using Strapi enables building or integrating websites and ecommerce platforms, managing leads and teams, and importing data from Excel. It also integrates with CRMs and supports AI-assisted content creation for tasks like product descriptions and marketing emails.
+                fully customizable CMS at the center, with connected tools around it. Using <span
+                  className="underline">Strapi</span> enables building or integrating websites and ecommerce platforms,
+                managing leads and teams, and importing data from Excel. It also integrates with CRMs and supports
+                AI-assisted content creation for tasks like product descriptions and marketing emails.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                    className="fill-blue-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={16}
+                    height={16}
                 >
-                  <path d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
+                  <path
+                      d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
                 </svg>
                 <span>Plug & Play Feature</span>
               </h3>
@@ -82,35 +88,39 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                    className="fill-blue-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={16}
+                    height={16}
                 >
                   <path
-                    d="M2.248 6.285a1 1 0 0 1-1.916-.57A8.014 8.014 0 0 1 5.715.332a1 1 0 0 1 .57 1.916 6.014 6.014 0 0 0-4.037 4.037Z"
-                    opacity=".3"
+                      d="M2.248 6.285a1 1 0 0 1-1.916-.57A8.014 8.014 0 0 1 5.715.332a1 1 0 0 1 .57 1.916 6.014 6.014 0 0 0-4.037 4.037Z"
+                      opacity=".3"
                   />
-                  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z" />
+                  <path
+                      d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z"/>
                 </svg>
                 <span> Full Automation</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
-              Optimize workflows with Make.com for marketing automation and more. Automate task management, communications, and lead processing, and publish content across multiple social platforms with a single click.              </p>
+              <p className="text-base text-gray-400">
+                Optimize workflows with <span className="underline">Make.com</span> for marketing automation and more.
+                Automate task management, communications, and lead processing, and publish content across multiple
+                social platforms with a single click.
+              </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
+                    className="fill-blue-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={16}
+                    height={16}
                 >
                   <path d="M8 0a1 1 0 0 1 1 1v14a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1Zm6 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1a1 1 0 1 1 0 2h-1a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3h1a1 1 0 1 1 0 2h-1ZM1 1a1 1 0 0 0 0 2h1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 1 0 0 2h1a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H1Z" />
                 </svg>
                 <span>Ai Analyzer</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 ">
               AI analyzes user behavior to improve marketing and user experience. You can also automate community management, project tracking, inventory monitoring, and employee onboarding.              </p>
             </article>
             <article>

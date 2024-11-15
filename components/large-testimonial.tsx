@@ -9,7 +9,7 @@ export default function LargeTestimonial() {
           <div className="space-y-3 text-center">
             <div className="relative inline-flex">
 
-            <p className="text-3xl font-bold text-black-200 md:text-4xl">
+            <p className="text-3xl font-bold font-mono text-black-200 md:text-4xl">
               About us
               <br></br>
             </p>
@@ -17,7 +17,6 @@ export default function LargeTestimonial() {
             <p className="text-2xl font-bold text-gray-900">
               We are a team of two experienced consultants, collaborating on large-scale projects for major companies across Europe. Our background includes advanced degrees in Computer Science and the development of key applications that serve thousands of users.
               <br></br>
-              <em className="italic text-gray-500">ORBIT is our new project !</em>
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Matteo Leonesi</span>{" "}

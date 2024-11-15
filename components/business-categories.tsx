@@ -1,14 +1,13 @@
 import Image from "next/image";
 import fb from "@/public/images/2023_Facebook_icon.svg.webp"
 import chatgoat from "@/public/images/chatgpt-logo-chat-gpt-1024x1024.webp"
-import orbitlogo from "@/public/images/orbitlogo.png";
 import email from "@/public/images/gmail.webp";
 import make from "@/public/images/make.png"
 import strapi from "@/public/images/strapi-2.svg"
 import link from "@/public/images/link.webp"
 import exel from "@/public/images/exel3.svg"
 import shopy from "@/public/images/shopy2.png"
-import orbit from "@/public/images/shopy2.png"
+import orbit1 from "@/public/images/orbitlog.png"
 
 
 export default function BusinessCategories() {
@@ -178,7 +177,7 @@ export default function BusinessCategories() {
             {/* Logos */}
             <div className="absolute before:absolute before:-inset-3 before:animate-[spin_3s_linear_infinite] before:rounded-full before:border before:border-transparent before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] before:[background:conic-gradient(from_180deg,transparent,theme(colors.blue.500))_border-box]">
               <div className="animate-[breath_8s_ease-in-out_infinite_both]">
-                <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                <div className="flex h-24 w-24 items-center justify-center rounded-full text-white-500 font-mono  font-boldbg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                   <h1>ORBIT</h1>
                 </div>
               </div>
