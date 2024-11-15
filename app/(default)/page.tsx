@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Orbit",
-  description: "Page description",
+  description: "Modular and  automative PaaS for small companies that want scale",
 };
 
 import Hero from "@/components/hero-home";
